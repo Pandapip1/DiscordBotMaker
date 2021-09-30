@@ -1,4 +1,4 @@
-name: NodeJS with Gulp
+name: Package PXT
 
 on:
   push:
@@ -24,5 +24,7 @@ jobs:
 
     - name: Build
       run: |
+        git config --global user.email "actions-user@github.com"
+        git config --global user.name "actions-user"
         npm install
         npx pxt staticpkg --gh --bump
