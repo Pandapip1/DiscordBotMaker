@@ -1,0 +1,10 @@
+CACHE MANIFEST
+
+CACHE:
+/DiscordBotMaker/bluebird.min.js
+/DiscordBotMaker/pxtsim.js
+/DiscordBotMaker/sim.js
+/DiscordBotMaker/sim.css
+
+NETWORK:
+*
