@@ -1,7 +1,7 @@
 {
-    "id": "sample",
-    "name": "sample",
-    "title": "MakeCode Editor Sample",
+    "id": "discord",
+    "name": "discord",
+    "title": "Discord Bot Maker",
     "corepkg": "core",
     "cloud": {
         "workspace": false,
@@ -20,11 +20,11 @@
       "listsBlocks": false
     },
     "simulator": {
-        "autoRun": true
+        "autoRun": false
     },
     "appTheme": {
-        "logoUrl": "https://github.com/Microsoft/pxt-sample",
-        "homeUrl": "http://microsoft.github.io/pxt-sample/",
+        "logoUrl": "https://github.com/Pandapip1/DiscordBotMaker",
+        "homeUrl": "https://pandapip1.github.io/DiscordBotMaker/",
         "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
         "termsOfUseUrl": "https://go.microsoft.com/fwlink/?LinkID=206977",
         "betaUrl": "https://makecode.com/",
@@ -42,7 +42,7 @@
         "monacoToolbox": true,
         "invertedMenu": true,
         "showHomeScreen": true,
-        "homeScreenHero": "./static/hero.png",
+        "homeScreenHero": "./static/dbm-hero.png",
         "blocklyOptions": {
             "grid": {
                 "spacing": 45,
@@ -56,11 +56,11 @@
         "scriptManager": true,
         "debugger": true,
         "print": true,
-        "highContrast": true,
+        "highContrast": false,
         "python": true,
         "greenScreen": true,
         "monacoColors": {
-            "editor.background": "#ecf0f1"
+            "editor.background": "#5539cc"
         }
     }
 }
